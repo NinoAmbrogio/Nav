@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+nav {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: purple;
+  margin-top: 15px;
+  padding: 30px 50px;
+}
+nav a {
+  text-decoration: none;
+}
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navleft {
+  text-align: center;
+}
+
+.navcenter ol {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+.navcenter ol li {
+  padding: 10px 20px;
+}
+
+.navright {
+  padding: 10px 20px;
+  background-color: rgba(0, 255, 255, 0.76);
+  border-radius: 5rem;
+}
