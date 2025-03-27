@@ -9,6 +9,7 @@
 nav {
   background-color:#2F1793;
   padding: 10px 20px ;
+  position: sticky;
 
 }
 nav a {
@@ -34,10 +35,9 @@ nav a {
   
 }
 
-.navright {
-  padding: 1px 8px;
+.navright-buy{
+  padding: 1px 5px;
   background-color: rgba(0, 255, 255, 0.76);
   border-radius: 5rem;
   font-size: 10px;
- 
 }
